@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menu Utama Website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #72d7e7, #2caabe);
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 0.3rem;
+    }
+    header h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1rem;
+      opacity: 0.9;
+    }
+    .menu-container {
+      max-width: 800px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+    .menu-title {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      font-size: 1.4rem;
+      color: #3a6b9d;
+    }
+    .menu {
+      list-style: none;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+    .menu li {
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .menu li:last-child {
+      border-bottom: none;
+    }
+    .menu a {
+      display: block;
+      padding: 1.2rem 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-size: 1.1rem;
+      font-weight: 500;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+    .menu a:hover {
+      background-color: #e0f7ff;
+      color: #3d5887;
+    }
+    footer {
+      text-align: center;
+      padding: 1.2rem 1rem;
+      background-color: #333;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SISTEM INFORMASI MANAJEMEN PERIKANAN</h1>
+    <h3>POKDAKAN</h3>
+    <p>Selamat datang di situs web kelompok 2. Kami menyediakan berbagai layanan dalam kegiatan POKDAKAN. Silahkan masuk ke layanan online dan mengakses berbagai jenis pelayanan dengan cepat dan mudah.
+    </p>
+  </header>
+
+  <div class="menu-container">
+    <h2 class="menu-title">PROFIL</h2>
+    <ul class="menu">
+      <li><a href="sejarah.html">Sejarah Kelompok</a></li>
+      <li><a href="data dasar.html">Data Dasar Kelompok</a></li>
+      <li><a href="data anggota.html">Data Anggota Kelompok</a></li>
+      <li><a href="data komoditas.html">Data Komoditas Perikanan</a></li>
+    </ul>
+  </div>
+  <div class="menu-container">
+    <h2 class="menu-title">PILIH LAYANAN</h2>
+    <ul class="menu">
+      <li><a href="simpan pinjam.html">Simpan Pinjam Kelompok</a></li> 
+    </ul>
+  </div>
+
+  <footer>
+    SISTEM INFORMASI MANAJEMEN PERIKANAN <span id="name">KELOMPOK 2 - </span>POKDAKAN
+  </footer>
+</body>
+</html>
